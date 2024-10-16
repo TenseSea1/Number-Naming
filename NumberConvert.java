@@ -4,7 +4,7 @@ public class NumberConvert {
     public static void main(String[] args) {
         //Choose a number written as a String; e.g., "-123.", "000.000", "05.0000", "1,000,000",
         //"205789789078907980708972890.0893460875093998368979739", "10^-0", "10^3000000", and "123 456 789 . 987 654 321".
-        //Spaces will be ignored.
+        //Spaces and commas will be ignored.
         System.out.println(convert("3.141592653589793238462643383279"));
     }
 
